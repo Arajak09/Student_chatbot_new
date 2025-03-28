@@ -1,0 +1,12 @@
+# Ignore virtual environment
+chatbot_env/
+
+# Ignore unnecessary system files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

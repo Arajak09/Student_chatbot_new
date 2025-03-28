@@ -1,0 +1,44 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - have a nice day
+
+- intent: course_info
+  examples: |
+    - What courses do you offer?
+    - Tell me about the available courses.
+    - List all the courses in the college.
+    - What programs does the college provide?
+
+- intent: admission_query
+  examples: |
+    - How can I apply for admission?
+    - What is the admission process?
+    - Where can I fill out the admission form?
+    - Tell me about the college admission requirements.
+
+- intent: principal_query
+  examples: |
+    - Who is the principal of the college?
+    - Can you tell me the name of the college principal?
+    - Who is in charge of the college?
+
+- intent: fee_query
+  examples: |
+    - What is the college fee structure?
+    - How much is the tuition fee?
+    - Can you tell me about the admission fees?
+    - What are the fees for Data Science?

@@ -1,0 +1,50 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - course_info
+  - admission_query
+  - principal_query
+  - fee_query
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_course_info:
+    - text: "Our college offers courses in Data Science, AI, and Web Development."
+
+  utter_admission_query:
+    - text: "To apply for admission, visit our college website and fill out the online application form."
+
+  utter_principal_query:
+    - text: "The principal of our college is Dr. Rajesh Sharma."
+
+  utter_fee_query:
+    - text: "The fee structure varies by course. Please visit our official website for detailed information."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

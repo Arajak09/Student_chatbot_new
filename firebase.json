@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "student_chatbot_new",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
